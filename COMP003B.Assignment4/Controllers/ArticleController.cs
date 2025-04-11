@@ -11,7 +11,7 @@ public class ArticlesController : Controller
 			new Article { Id = 2, Title = "Super Smash Bros. Ultimate", Summary = "Delve into the modern era of Smash Bros, the place where 'Everyone is Here!'"},
 			new Article { Id = 3, Title = "Street Fighter 6", Summary = "Learn about one of the longest standing fighting game series to date, and how it still revolutionizes the fighting game space even today!"},
 			new Article { Id = 4, Title = "Tekken 8", Summary = "One of the most boundary-pushing 3D fighting games of all time, Tekken 8 has an extensive history and playerbase!"},
-			new Article { Id = 5, Title = "Dragon Ball FighterZ", Summary = "If you enjoy anime, then this very fast paced fighting game is just for you!"},
+			new Article { Id = 5, Title = "Dragon Ball FighterZ", Summary = "If you enjoy anime, then this very fast paced fighting game featuring a plethora of Dragon Ball characters is just for you!"},
 		};
 
 		return View(articles);

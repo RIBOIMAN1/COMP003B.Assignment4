@@ -1,5 +1,13 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model IEnumerable<Article>
+
 @{
+    ViewData["Title"] = "About the Games";
+    Layout = "_Layout";
+}
+
+<h2>About the Games</h2>
+
+@foreach (var article in Model)
+{
+    <partial name="_ArticleCard" model="article" />
 }
