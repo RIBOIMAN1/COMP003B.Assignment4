@@ -19,7 +19,7 @@ public class ArticlesController : Controller
 
 	public IActionResult Details(int id)
 	{
-		var article = new Article { Id = id, Title = $"Article {id}", Summary = "Detailed content coming soon." };
+		var article = new Article { Id = id, Title = $"Article {id}", Summary = "Detailed content coming soon."};
 		return View(article);
 	}
 }
