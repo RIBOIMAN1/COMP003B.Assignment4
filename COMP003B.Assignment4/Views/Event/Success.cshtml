@@ -1,0 +1,14 @@
+﻿@model COMP003B.Assignment4.Models.EventRegistration
+@{
+    ViewData["Title"] = "Registration Successful";
+}
+<h1>Registration Successful</h1>
+<partial name="_EventNav" />
+<div class="mt-4">
+    <p>The email you entered is @Model.Email</p>
+    <p>You have successfully registered for <strong>@Model.EventCode</strong> with <strong>@Model.Tickets</strong> ticket(s).</p>
+    @if (!string.IsNullOrEmpty(Model.ReferralCode))
+    {
+        <p>Referral Code: @Model.ReferralCode</p>
+    }
+</div>
