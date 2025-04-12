@@ -15,7 +15,7 @@ namespace COMP003B.Assignment4.Models
 		public string EventCode { get; set; }
 		[Required]
 		[Range(1, 10)]
-		[Display(Name = "Number of Tickets")]
+		[Display(Name = "Number of Tickets (1-10)")]
 		public int Tickets { get; set; }
 		[Display(Name = "Referral Code (Optional)")]
 		public string ReferralCode { get; set; }
